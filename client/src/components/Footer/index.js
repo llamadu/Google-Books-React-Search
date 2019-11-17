@@ -1,5 +1,7 @@
+// import React 
 import React from "react";
 
+// Footer functional component. There are no props passed into this component. All content is coded directly into the footer.
 function Footer() {
   return (
     <footer>
@@ -11,4 +13,5 @@ function Footer() {
   );
 }
 
+// export Footer
 export default Footer;

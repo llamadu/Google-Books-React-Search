@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
+// import style.css from Nav folder
 import "./style.css";
 
 class Nav extends Component {
@@ -74,4 +76,5 @@ class Nav extends Component {
   }
 }
 
+// export Nav
 export default Nav;

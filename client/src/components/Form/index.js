@@ -1,5 +1,7 @@
+// import react
 import React from "react";
 
+// Form component with q, handleInputChange, handleFormSubmit props
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
     <form>
@@ -31,4 +33,5 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
   );
 }
 
+//export Form
 export default Form;
